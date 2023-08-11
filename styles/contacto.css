@@ -1,0 +1,41 @@
+.contenedor
+{
+    background-color: #999;
+    border-radius: 10px;
+    margin: 10px 0;
+    padding: 20px;
+    width: 50%;
+    position:  relative;
+    left: 25%;
+}
+input[type="text"],
+input[type="email"],
+select,
+textarea{
+    width: 100%;
+    padding: 15px;
+    margin: 8px 0;
+    border: 1px solid rgb(70, 70, 70);
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+input[type="submit"]{
+    width: 100%;
+    background-color: green;
+    color: white;
+    padding: 15px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+textarea{
+    resize:none;
+   
+}
+input[type="submit"]:hover{
+    background:linear-gradient(to right, rgb(255, 0, 255),rgb(0, 255, 0));
+}
+textarea:focus, input:focus{
+background-color: rgb(206, 156, 193);
+}
